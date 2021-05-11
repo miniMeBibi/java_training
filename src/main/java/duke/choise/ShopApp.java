@@ -64,6 +64,7 @@ public class ShopApp {
             default:
                 c1.size = "X";
         }
+
         System.out.println("The Customer size is: "+ c1.size);
 
         for (Clothing clothing: arrayClothing){
