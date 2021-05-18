@@ -56,14 +56,8 @@ public class Customer {
     public double getTotalClothingCost() {
         double total = 0.0;
         for (Clothing clothing : items) {
-            //  if (clothing.getSize().equals(clothing.getSize())) {
             total = total + clothing.getPrice();
-            //   total = total + total * tax;
             System.out.println("Items is a: " + clothing.getDescription() + " price is: " + clothing.getPrice() + " size is: " + clothing.getSize());
-//                if (total > 15) {
-//                    break;
-//                }
-            //   }
         }
 
         return total;
