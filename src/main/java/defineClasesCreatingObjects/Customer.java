@@ -5,6 +5,11 @@ public class Customer {
     private String size;
     private Clothing[] items;
 
+    public Customer(String name, int mesurement) {
+        this.name = name;
+        setSize(mesurement);
+    }
+
     public String getName() {
         return name;
     }
